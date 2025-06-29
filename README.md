@@ -40,7 +40,7 @@ This lab is designed to teach how to identify, simulate, and fix security vulner
 
 ### Telnet Session from PowerShell
 
-![Telnet connection from PowerShell](screenshots/telnet-pwsh-connection.png)
+![Telnet connection from PowerShell](https://github.com/SruthinagaK/linux-manual-vulnerabitltiy-labscan-June2025/blob/main/Screenshot%202025-06-29%20142104.png)
 
 This screenshot shows an active Telnet connection established from a Windows host to the target Linux VM using PowerShell. Telnet was enabled to simulate an insecure service vulnerability and verify remote access.
 
