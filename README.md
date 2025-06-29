@@ -1,7 +1,7 @@
 # 🧪 Linux Vulnerability Scanning Lab Report
 
 ## 🎯 Purpose of the Lab
-This lab is designed to teach how to identify, simulate, and fix security vulnerabilities in a Linux virtual machine (VM). Using Tenable Vulnerability Management, we:
+This lab is designed to teach how to identify, simulate, and fix security vulnerabilities in a Linux virtual machine (VM). Using Tenable Vulnerability Management :
 
 - Created a secure Linux VM in a cyber range.
 - Scanned it using a DISA/STIG-based template.
