@@ -26,13 +26,29 @@ This lab is designed to teach how to identify, simulate, and fix security vulner
 #### ✅ Scan 1 (Baseline): Established the initial security posture of a freshly provisioned Linux VM. Identified multiple critical and high vulnerabilities, including outdated OpenSSL and libcurl packages
 
 ### 🧪 Scan 2 [Simulated attack surface](https://github.com/SruthinagaK/linux-manual-vulnerabitltiy-labscan-June2025/blob/main/Linux-scan-manual-vul-test-June-Naga_Scan2.pdf)
+
+### 🧪 Scan 2 (Simulated Attack Surface): Deliberately weakened the system by enabling Telnet and setting an insecure root password. This increased the critical vulnerability count, simulating a real-world misconfiguration scenario.
+- **Deliberately weakened the security posture of your Linux VM to simulate real-world misconfigurations:
+- **Installed Telnet (an insecure protocol):
+
+||
+|--------------|
+| **sudo apt update** |  
+| **sudo apt install telnetd -y**|
+| **sudo systemctl enable inetd.service** |
+| **sudo systemctl start inetd.service** |
+
+- **connect the linux vm using powershell 
+
+
+
+
 | Description | Details |
 |-------------|---------|
 | **Actions Taken** | Enabled Telnet and root login with default password to simulate vulnerabilities. |
 | **Vulnerabilities Found** | Critical: 4, High: 3, Medium: 16, Low: 2, Info: 63 |
 | **Remediation Status** | New vulnerabilities (Telnet, root password) introduced for testing. |
 
-### 🧪 Scan 2 (Simulated Attack Surface): Deliberately weakened the system by enabling Telnet and setting an insecure root password. This increased the critical vulnerability count, simulating a real-world misconfiguration scenario.
 
 
 ### 🔧 Scan 3 [Initial remediation](https://github.com/SruthinagaK/linux-manual-vulnerabitltiy-labscan-June2025/blob/main/Linux-scan-manual-vul-test-June-Naga_Scan%203.pdf)
