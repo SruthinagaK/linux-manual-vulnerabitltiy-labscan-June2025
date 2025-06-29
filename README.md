@@ -38,8 +38,11 @@ This lab is designed to teach how to identify, simulate, and fix security vulner
 | **sudo systemctl enable inetd.service** |
 | **sudo systemctl start inetd.service** |
 
-- **connect the linux vm using powershell 
+### Telnet Session from PowerShell
 
+![Telnet connection from PowerShell](screenshots/telnet-pwsh-connection.png)
+
+This screenshot shows an active Telnet connection established from a Windows host to the target Linux VM using PowerShell. Telnet was enabled to simulate an insecure service vulnerability and verify remote access.
 
 
 
