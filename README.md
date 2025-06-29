@@ -16,35 +16,35 @@ This lab is designed to teach how to identify, simulate, and fix security vulner
 
 ## 📊 Scan Summary Table
 
-### ✅ Scan 1
+### ✅ Scan 1 [Baseline scan](https://github.com/SruthinagaK/linux-manual-vulnerabitltiy-labscan-June2025/blob/main/Linux-scan-manual-vul-test-June-Naga_Scan%201.pdf)
 | Description | Details |
 |-------------|---------|
 | **Actions Taken** | Created Linux VM and performed initial authenticated scan using DISA/STIG template. |
 | **Vulnerabilities Found** | Critical: 4, High: 3, Medium: 16, Low: 2, Info: 63 |
 | **Remediation Status** | Baseline vulnerabilities identified before any changes. |
 
-### 🧪 Scan 2
+### 🧪 Scan 2 [Simulated attack surface](https://github.com/SruthinagaK/linux-manual-vulnerabitltiy-labscan-June2025/blob/main/Linux-scan-manual-vul-test-June-Naga_Scan2.pdf)
 | Description | Details |
 |-------------|---------|
 | **Actions Taken** | Enabled Telnet and root login with default password to simulate vulnerabilities. |
 | **Vulnerabilities Found** | Critical: 3, High: 3, Medium: 15, Low: 2, Info: 61 |
 | **Remediation Status** | New vulnerabilities (Telnet, root password) introduced for testing. |
 
-### 🔧 Scan 3
+### 🔧 Scan 3 [Initial remediation](https://github.com/SruthinagaK/linux-manual-vulnerabitltiy-labscan-June2025/blob/main/Linux-scan-manual-vul-test-June-Naga_Scan%203.pdf)
 | Description | Details |
 |-------------|---------|
 | **Actions Taken** | Removed Telnet and changed root password to secure the system. |
 | **Vulnerabilities Found** | Critical: 3, High: 3, Medium: 15, Low: 2, Info: 62 |
 | **Remediation Status** | Some vulnerabilities removed, others persisted. |
 
-### 🛡️ Scan 4
+### 🛡️ Scan 4 [Deep remediation](https://github.com/SruthinagaK/linux-manual-vulnerabitltiy-labscan-June2025/blob/main/Linux-scan-manual-vul-test-June-Naga_Scan%204.pdf)
 | Description | Details |
 |-------------|---------|
 | **Actions Taken** | Addressed OpenSSL and other critical vulnerabilities. |
 | **Vulnerabilities Found** | Critical: 0, High: 1, Medium: 1, Low: 2, Info: 61 |
 | **Remediation Status** | Most critical vulnerabilities resolved. |
 
-### 🔄 Scan 5
+### 🔄 Scan 5 [Final cleanup](https://github.com/SruthinagaK/linux-manual-vulnerabitltiy-labscan-June2025/blob/main/Linux-scan-manual-vul-test-June-Naga_Scan%205.pdf)
 | Description | Details |
 |-------------|---------|
 | **Actions Taken** | Attempting to remediate libcurl 7.81.0 DoS vulnerability (CVE-2024-7264). |
