@@ -1,16 +1,16 @@
 # 🧪 Linux Vulnerability Scanning Lab Report
 
 ## 🎯 Purpose of the Lab
-This lab is designed to teach how to identify, simulate, and fix security vulnerabilities in a Linux virtual machine (VM). Using Tenable Vulnerability Management :
+The lab exercise taught me how to identify, simulate, and fix security vulnerabilities in a Linux virtual machine (VM). Using Tenable Vulnerability Management :
 
-- Created a secure Linux VM in a cyber range.
+- Created a secure Linux  VM in a cyber range enviornment .
 - Scanned it using a DISA/STIG-based template.
 - Introduced known vulnerabilities (like Telnet and weak passwords).
 - Performed multiple scans to observe and fix issues.
 
 ## 🛠️ Lab Setup
-- **VM Provisioning**: A Linux VM was created in a cyber range.
-- **Scanner Configuration**: Authenticated scans were run using Tenable with internal or cloud scanners.
+- **VM Provisioning**: A Linux VM (Ubuntu 22.04) was created in a cyber range.
+- **Scanner Configuration**: Authenticated scans were run using Tenable with internal scanners.
 - **Vulnerability Simulation**: Weak configurations were added (e.g., Telnet, root password).
 - **Remediation**: Vulnerabilities were removed step-by-step, with scans after each change.
 
@@ -55,13 +55,14 @@ This screenshot shows an active Telnet connection established from a Windows hos
 
 
 ### 🔧 Scan 3 [Initial remediation](https://github.com/SruthinagaK/linux-manual-vulnerabitltiy-labscan-June2025/blob/main/Linux-scan-manual-vul-test-June-Naga_Scan%203.pdf)
+##   Reversed the insecure changes by removing Telnet and securing root access. This reduced the critical count but left deeper issues like OpenSSL unresolved.
 | Description | Details |
 |-------------|---------|
 | **Actions Taken** | Removed Telnet and changed root password to secure the system. |
 | **Vulnerabilities Found** | Critical: 3, High: 3, Medium: 15, Low: 2, Info: 62 |
 | **Remediation Status** | Some vulnerabilities removed, others persisted. |
 
-### 🔧 Scan 3 (Initial Remediation): Reversed the insecure changes by removing Telnet and securing root access. This reduced the critical count but left deeper issues like OpenSSL unresolved.
+
 
 ### 🛡️ Scan 4 [Deep remediation](https://github.com/SruthinagaK/linux-manual-vulnerabitltiy-labscan-June2025/blob/main/Linux-scan-manual-vul-test-June-Naga_Scan%204.pdf)
 | Description | Details |
