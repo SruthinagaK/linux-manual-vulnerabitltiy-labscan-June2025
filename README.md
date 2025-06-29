@@ -20,14 +20,14 @@ This lab is designed to teach how to identify, simulate, and fix security vulner
 | Description | Details |
 |-------------|---------|
 | **Actions Taken** | Created Linux VM and performed initial authenticated scan using DISA/STIG template. |
-| **Vulnerabilities Found** | Critical: 4, High: 3, Medium: 16, Low: 2, Info: 63 |
+| **Vulnerabilities Found** | Critical: 3, High: 3, Medium: 15, Low: 2, Info: 61 |
 | **Remediation Status** | Baseline vulnerabilities identified before any changes. |
 
 ### 🧪 Scan 2 [Simulated attack surface](https://github.com/SruthinagaK/linux-manual-vulnerabitltiy-labscan-June2025/blob/main/Linux-scan-manual-vul-test-June-Naga_Scan2.pdf)
 | Description | Details |
 |-------------|---------|
 | **Actions Taken** | Enabled Telnet and root login with default password to simulate vulnerabilities. |
-| **Vulnerabilities Found** | Critical: 3, High: 3, Medium: 15, Low: 2, Info: 61 |
+| **Vulnerabilities Found** | Critical: 4, High: 3, Medium: 16, Low: 2, Info: 63 |
 | **Remediation Status** | New vulnerabilities (Telnet, root password) introduced for testing. |
 
 ### 🔧 Scan 3 [Initial remediation](https://github.com/SruthinagaK/linux-manual-vulnerabitltiy-labscan-June2025/blob/main/Linux-scan-manual-vul-test-June-Naga_Scan%203.pdf)
